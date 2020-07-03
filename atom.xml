@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://kaltisit.GitHub.io</id>
+    <id>https://leaderone42.github.io</id>
     <title></title>
-    <updated>2020-07-02T12:57:17.706Z</updated>
+    <updated>2020-07-03T12:37:28.917Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://kaltisit.GitHub.io"/>
-    <link rel="self" href="https://kaltisit.GitHub.io/atom.xml"/>
-    <logo>https://kaltisit.GitHub.io/images/avatar.png</logo>
-    <icon>https://kaltisit.GitHub.io/favicon.ico</icon>
+    <link rel="alternate" href="https://leaderone42.github.io"/>
+    <link rel="self" href="https://leaderone42.github.io/atom.xml"/>
+    <logo>https://leaderone42.github.io/images/avatar.png</logo>
+    <icon>https://leaderone42.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, </rights>
 </feed>
