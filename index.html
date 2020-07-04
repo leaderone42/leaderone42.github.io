@@ -1,112 +1,147 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>可露希尔的私藏</title>
-<link rel="shortcut icon" href="https://leaderone42.github.io/favicon.ico?v=1593868393230">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://leaderone42.github.io/favicon.ico?v=1593868890588">
 <link rel="stylesheet" href="https://leaderone42.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="可露希尔的私藏 - Atom Feed" href="https://leaderone42.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="可露希尔的精品收藏，不要外传！！！！！！！！" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="可露希尔的精品收藏，不要外传！！！！！！！！">
+    
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://leaderone42.github.io">
-  <img class="avatar" src="https://leaderone42.github.io/images/avatar.png?v=1593868393230" alt="">
-  </a>
-  <h1 class="site-title">
-    可露希尔的私藏
-  </h1>
-  <p class="site-description">
-    可露希尔的精品收藏，不要外传！！！！！！！！
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="https://leaderone42.github.io" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="https://leaderone42.github.io/archives" class="menu">
-          阅读
-        </a>
-      
-    
-      
-        <a href="https://leaderone42.github.io/post/quher0jcquhgcia" class="menu">
-          PASSWORD
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-        <a href="https://weibo.com/u/6624655886/home?topnav=1&amp;wvr=6" target="_blank">
-          <i class="ri-weibo-line"></i>
-        </a>
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
+    <div id="app" class="main">
 
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://leaderone42.github.io/post/yang-tao/">
-        <h2 class="post-title">杨桃</h2>
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://leaderone42.github.io">
+        <img src="https://leaderone42.github.io/images/avatar.png?v=1593868890588" class="site-logo">
+        <h1 class="site-title">可露希尔的私藏</h1>
       </a>
-      <div class="post-info">
-        <span>
-          2020-07-04
-        </span>
-        <span>
-          1 min read
-        </span>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </div>
-    </article>
-  
-</div>
-
-    
-        <div class="pagination-container">
-  
-  
-    <a href="https://leaderone42.github.io/page/2" class="next-page">下一页</a>
-  
-</div>
-
-    
-        <div class="site-footer">
-  
-  <a class="rss" href="https://leaderone42.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
     </div>
+    <div>
+      
+        
+          <a href="https://leaderone42.github.io" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://leaderone42.github.io/archives" class="site-nav">
+            阅读
+          </a>
+        
+      
+        
+          <a href="https://leaderone42.github.io/post/quher0jcquhgcia" class="site-nav">
+            PASSWORD
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      可露希尔的精品收藏，不要外传！！！！！！！！
+    </div>
+    <div class="site-footer">
+       | <a class="rss" href="https://leaderone42.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://leaderone42.github.io/post/yang-tao/">
+                  <h2 class="post-title">杨桃</h2>
+                </a>
+                <div class="post-date">
+                  2020-07-04
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://leaderone42.github.io/post/1/">
+                  <h2 class="post-title">官博图整理</h2>
+                </a>
+                <div class="post-date">
+                  2020-07-04
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
   </body>
 </html>
