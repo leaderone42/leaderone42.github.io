@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://leaderone42.github.io</id>
-    <title></title>
-    <updated>2020-07-04T12:03:02.960Z</updated>
+    <title>可露希尔私藏</title>
+    <updated>2020-07-04T12:08:44.241Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://leaderone42.github.io"/>
     <link rel="self" href="https://leaderone42.github.io/atom.xml"/>
+    <subtitle>可露希尔私藏</subtitle>
     <logo>https://leaderone42.github.io/images/avatar.png</logo>
     <icon>https://leaderone42.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, </rights>
+    <rights>All rights reserved 2020, 可露希尔私藏</rights>
 </feed>
